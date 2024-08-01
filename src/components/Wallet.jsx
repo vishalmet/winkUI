@@ -126,7 +126,7 @@ const CustomButton = () => {
                                 <img
                                   alt={chain.name ?? "Chain icon"}
                                   src={chain.iconUrl}
-                                  style={{ width: 12, height: 12 }}
+                                  style={{ width: 20, height: 20 }}
                                 />
                               )}
                             </div>
@@ -135,7 +135,7 @@ const CustomButton = () => {
                         </motion.button>
 
                         <motion.button
-                          className=" text-white w-auto h-[48px] bg-customBorder border-2 border-customButtonStroke font-bold hover:bg-blue-900 rounded-[32px]"
+                          className=" text-white p-2 w-auto h-[48px] bg-customBorder border-2 border-customButtonStroke font-bold hover:bg-blue-900 rounded-[32px]"
                           onClick={openAccountModal}
                           whileTap={{ scale: 0.9 }}
                           type="button"
