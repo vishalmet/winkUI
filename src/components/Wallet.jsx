@@ -103,7 +103,7 @@ const CustomButton = () => {
                     return (
                       <div style={{ display: "flex", gap: 12 }}>
                         <motion.button
-                          className="text-white w-[100px] md:w-[150px] h-[48px] bg-customBorder border-2 border-customButtonStroke font-bold hover:bg-blue-900 rounded-[32px]"
+                          className="text-white flex justify-center items-center w-[100px] md:w-[150px] h-[48px] bg-customBorder border-2 border-customButtonStroke font-bold hover:bg-blue-900 rounded-[32px]"
                           onClick={openChainModal}
                           style={{ display: "flex", alignItems: "center" }}
                           type="button"
