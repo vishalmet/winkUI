@@ -10,10 +10,10 @@ const HeaderLogo = () => {
           <img
             src={HeadLogo}
             alt="Header Logo"
-            className=" h-[36px] w-[228px]"
+            className=" h-[22px] w-[228px]"
           />
       </div>
-      <div className="pt-[64px]">
+      <div className="pt-[40px]">
         <img src={Logo} alt="Logo" className="h-[48px] w-[48px] mx-auto" />
       </div>
     </div>

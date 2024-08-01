@@ -1,15 +1,15 @@
 import React from "react";
 import Lottie from "lottie-react";
 import Illustration from "./illustrations.json";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
+// import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Header from "./components/Header";
+import ConnectButton from "./components/Wallet"
 
 const App = () => {
   return (
     <div className="flex justify-center items-center mx-auto bg-gradient-to-t from-customStart via-customStart to-blue-950 min-h-screen">
       <div className=" items-center space-y-6 ">
         <Header />
-
         <div className="flex justify-center">
           <ConnectButton />
         </div>
