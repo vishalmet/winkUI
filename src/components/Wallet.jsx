@@ -126,7 +126,8 @@ const CustomButton = () => {
                                 <img
                                   alt={chain.name ?? "Chain icon"}
                                   src={chain.iconUrl}
-                                  style={{ width: 20, height: 20 }}
+                                  style={{ width: 32, height: 32 }}
+                                  className=" flex justify-center items-center"
                                 />
                               )}
                             </div>
